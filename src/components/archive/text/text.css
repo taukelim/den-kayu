@@ -1,0 +1,11 @@
+.text {
+  font-size: 3em;
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+
+  height: 30vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

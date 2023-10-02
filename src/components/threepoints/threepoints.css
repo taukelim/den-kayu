@@ -1,0 +1,30 @@
+.threePoints {
+  background-color: #e3d1c5;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  flex-flow: row wrap;
+
+  padding: 3em 1em;
+}
+
+.threePoints--point {
+  flex: 1 0 400px;
+
+  text-align: left;
+  /* min-width: 200px; */
+  width: 25%;
+  max-width: 15em;
+  margin: 0 1em;
+}
+
+.threePoints--title {
+  font-size: 1.75 em;
+}
+
+.threePoints--text {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  /* text-align: left; */
+}

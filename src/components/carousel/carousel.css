@@ -1,0 +1,16 @@
+.carousel--container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.carousel--container::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel--image {
+  height: 52vh;
+  width: 50vh;
+
+  margin: 0em;
+}
